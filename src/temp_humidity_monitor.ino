@@ -15,7 +15,7 @@
       MQTT broker (see docs/setup.md) — swap the HTTP block for PubSubClient.
     - Threshold-based alerting: this sketch triggers ThingSpeak's built-in
       "React" + email-alert feature by writing to a dedicated alert field
-      (see docs/setup.md for configuring the MATLAB Analysis-based trigger).
+      (see docs/setup.md for configuring the React rule).
 */
 
 #include <WiFi.h>
